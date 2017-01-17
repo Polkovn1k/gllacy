@@ -2,6 +2,7 @@
 
 * Студент: [Димар Исхаков](https://up.htmlacademy.ru/htmlcss/16/user/271245).
 * Наставник: `Неизвестно`.
+* Наставник: [Ольга Одноколова](https://up.htmlacademy.ru/htmlcss/16/user/38936).
 
 ---
 
