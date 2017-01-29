@@ -21,3 +21,253 @@ h2 {
 	line-height: normal;
 	color: #000000;
 }
+
+/* --------------------------------- COMMON STYLE */
+
+.wrapper {
+	margin: 0 auto;
+	width: 1200px;
+	background-color: #849d8f;
+}
+
+.container {
+	margin: 0 auto 40px auto;
+	width: 1146px;
+}
+
+.small_block {
+	width: 560px;
+
+	/*temp*/
+	min-height: 229px;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* --------------------------------- HEADER STYLE */
+
+.main_header {
+	padding-left: 27px;
+	padding-right: 27px;
+	margin: 0;
+
+	/*temp*/
+	min-height: 73px;
+}
+
+.main_header .main_navigation {
+	margin: 0;
+	float: left;
+	width: 560px;
+}
+
+.main_header .main_interaction {
+	margin: 0;
+	float: right;
+	width: 267px;
+}
+
+.main_navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+.main_navigation .main_logo,
+.main_navigation .main_item {
+	float: left;
+}
+
+.main_interaction ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main_interaction .search_hover,
+.main_interaction .join_hover,
+.main_interaction .shop_hover {
+	float: left;
+}
+
+/* --------------------------------- MAIN STYLE */
+/* ------index */
+main .welcom {
+	position: relative;
+
+	padding-top: 1px;
+
+	/*temp*/
+	min-height: 533px;
+}
+
+main .map {
+	position: relative;
+
+	width: 1200px;
+	height: 430px;
+}
+
+.welcom .bg_slider {
+	position: absolute;
+	left: 0;
+	bottom: 22px;
+}
+
+.welcom .sample {
+	margin: 331px auto 0 auto;
+	width: 840px;
+}
+
+.container .contacts_short {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	width: 180px;
+}
+
+.gift .share_left {
+	float: left;
+}
+
+.gift .share_right {
+	float: right;
+}
+
+.best_icecream .best_item {
+	margin-right: 26px;
+	float: left;
+	width: 267px;
+}
+
+.best_icecream .last_item {
+	margin-right: 0;
+}
+
+.about .about_left {
+	float: left;
+}
+
+.about .about_right {
+	float: right;
+}
+
+.new_sub .news {
+	float: left;
+}
+
+.new_sub .subscription {
+	float: right;
+}
+
+.map .contacts_full {
+	position: absolute;
+	right: 27px;
+	top: 62px;
+
+	/*temp*/
+	max-width: 302px;
+	min-height: 305px;
+}
+
+/* ------catalog */
+main .ice_sort {
+	position: relative;
+
+	padding-top: 1px;
+}
+
+main .great_ice_catalog {
+	margin-bottom: 0;
+}
+
+.crumbs .crumb_1,
+.crumbs .crumb_2,
+.crumbs .crumb_3 {
+	float: left;
+}
+
+.ice_form_wrapper {
+	/*temp*/
+	width: 1000px;
+}
+
+.ice_form .ice_form_block {
+	float: left;
+}
+
+.ice_form .ice_form_filler {
+	clear: left;
+}
+
+.great_ice_catalog {
+	font-size: 0;
+}
+
+.great_ice_catalog .great_ice_item {
+	display: inline-block;
+	margin-right: 26px;
+	width: 267px;
+
+	vertical-align: top;
+	font-size: 16px;
+
+	/*temp*/
+	min-height: 374px;
+}
+
+.great_ice_catalog .last_item {
+	margin-right: 0;
+}
+
+.great_ice_catalog .paginator {
+	float: right;
+	margin-top: 23px;
+	margin-bottom: 23px;
+
+	font-size: 16px;
+}
+
+/* --------------------------------- FOOTER STYLE */
+
+.main_footer {
+	margin: 0 auto;
+}
+
+.main_footer .footer_icons {
+	float: left;
+
+	/*temp*/
+	margin-right: 135px;
+}
+
+.main_footer .specification {
+	float: left;
+}
+
+.main_footer .developers {
+	float: right;
+}
+
+/* --------------------------------- TEMPORARY STYLE */
+
+.contacts_short, .developers, .specification, .footer_icons,
+.crumb_1, .crumb_2, .crumb_3, .contacts_full, .best_item,
+.sample, .bg_slider, .main_interaction,.main_navigation,
+.small_block, .ice_form_wrapper, .great_ice_item, .paginator {
+	outline: 3px solid green;
+}
+
+.main_header {
+	outline: 3px solid yellow;
+}
+
+.container {
+	outline: 3px solid aqua;
+}
