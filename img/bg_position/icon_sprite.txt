@@ -1,0 +1,131 @@
+.icon_sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.icon_sprite-cart_hover_icon {
+    width: 21px;
+    height: 20px;
+    background-position: -50px -50px;
+}
+
+.icon_sprite-cart_icon {
+    width: 21px;
+    height: 20px;
+    background-position: -171px -50px;
+}
+
+.icon_sprite-checkbox_on_icon {
+    width: 20px;
+    height: 20px;
+    background-position: -292px -50px;
+}
+
+.icon_sprite-cow_icon {
+    width: 48px;
+    height: 49px;
+    background-position: -412px -50px;
+}
+
+.icon_sprite-eco_icon {
+    width: 49px;
+    height: 49px;
+    background-position: -560px -50px;
+}
+
+.icon_sprite-facebook_icon {
+    width: 38px;
+    height: 38px;
+    background-position: -709px -50px;
+}
+
+.icon_sprite-heart_icon {
+    width: 15px;
+    height: 13px;
+    background-position: -847px -50px;
+}
+
+.icon_sprite-hit_icon {
+    width: 61px;
+    height: 61px;
+    background-position: -962px -50px;
+}
+
+.icon_sprite-icecream_icon {
+    width: 49px;
+    height: 49px;
+    background-position: -1123px -50px;
+}
+
+.icon_sprite-icecream_mark {
+    width: 218px;
+    height: 142px;
+    background-position: -1272px -50px;
+}
+
+.icon_sprite-input_hover_icon {
+    width: 21px;
+    height: 19px;
+    background-position: -1590px -50px;
+}
+
+.icon_sprite-input_icon {
+    width: 21px;
+    height: 19px;
+    background-position: -1711px -50px;
+}
+
+.icon_sprite-inst_icon {
+    width: 38px;
+    height: 38px;
+    background-position: -1832px -50px;
+}
+
+.icon_sprite-paginator_left {
+    width: 9px;
+    height: 14px;
+    background-position: -1970px -50px;
+}
+
+.icon_sprite-paginator_right {
+    width: 9px;
+    height: 14px;
+    background-position: -2079px -50px;
+}
+
+.icon_sprite-ruble_icon {
+    width: 31px;
+    height: 36px;
+    background-position: -2188px -50px;
+}
+
+.icon_sprite-search_hover_icon {
+    width: 33px;
+    height: 33px;
+    background-position: -2319px -50px;
+}
+
+.icon_sprite-search_icon {
+    width: 17px;
+    height: 17px;
+    background-position: -2452px -50px;
+}
+
+.icon_sprite-thermometr_icon {
+    width: 48px;
+    height: 49px;
+    background-position: -2569px -50px;
+}
+
+.icon_sprite-twitter_icon {
+    width: 38px;
+    height: 38px;
+    background-position: -2717px -50px;
+}
+
+.icon_sprite-vk_icon {
+    width: 38px;
+    height: 38px;
+    background-position: -2855px -50px;
+}
