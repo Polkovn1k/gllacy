@@ -8,17 +8,17 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-		<input type="radio" id="input_1" name="rad" checked>
-		<input type="radio" id="input_2" name="rad">
-		<input type="radio" id="input_3" name="rad">
+	<input type="radio" id="input_1" name="rad" checked>
+	<input type="radio" id="input_2" name="rad">
+	<input type="radio" id="input_3" name="rad">
 	<div class="wrapper">
 <!-- HEADER -->
-		<header class="main_header clearfix">
-			<nav class="main_navigation clearfix">
-				<a><img src="img/main_logo.png" alt="Gllacy - ice cream shop" class="main_logo" width="154" height="64"></a>
-				<ul>
-					<li class="main_item catalog_hover"><a href="#">Каталог</a>
-						<div>
+		<div class="big_container">
+			<header class="main_header clearfix">
+				<nav class="main_navigation clearfix">
+					<a><img src="img/main_logo.png" alt="Gllacy - ice cream shop" class="main_logo" width="154" height="64"></a>
+					<ul class="clearfix">
+						<li class="main_item catalog_hover"><a href="#">Каталог</a>
 							<ul class="catalog_expand">
 								<li class="expand_link bold_link"><a href="#">Новинки</a></li>
 								<li class="expand_link"></li>
@@ -27,59 +27,59 @@
 								<li class="expand_link"><a href="#">Фруктовый лед</a></li>
 								<li class="expand_link"><a href="#">Мелорин</a></li>
 							</ul>
-						</div>
-					</li>
-					<li class="main_item"><a href="#">Доставка и оплата</a></li>
-					<li class="main_item"><a href="#">О Компании</a></li>
-				</ul>
-			</nav>
-			<div class="main_interaction">
-			<ul class="clearfix">
-				<li class="interaction_item">
-					<div class="search_hover">
-						<form action="#" method="post" class="search_expand">
-							<label class="search_area"><input type="search" name="search_accept" placeholder="Что ищем?"></label>
-						</form>
-					</div>
-				</li>
-				<li class="join_hover interaction_item"><a href="#">Вход</a>
-					<div class="join_hover_form">
-						<form action="#" method="post" class="join_expand">
-							<input type="email" name="email_accept" class="email_area" placeholder="Электронная почта">
-							<input type="password" name="password_accept" class="password_area" placeholder="Пароль">
-							<button class="button" type="submit">Войти</button>
-							<div class="join_help clearfix">
-								<a href="#" class="hov_act">Забыли пароль?</a><br>
-								<a href="#" class="hov_act">Новая регистрация</a>
+						</li>
+						<li class="main_item"><a href="#">Доставка и оплата</a></li>
+						<li class="main_item"><a href="#">О Компании</a></li>
+					</ul>
+				</nav>
+				<div class="main_interaction">
+					<ul class="clearfix">
+						<li class="interaction_item">
+							<div class="search_hover">
+								<form action="#" method="post" class="search_expand">
+									<label class="search_area"><input type="search" name="search_accept" placeholder="Что ищем?"></label>
+								</form>
 							</div>
-						</form>
-					</div>
-				</li>
-				<li class="shop_hover interaction_item"><a href="#">Пусто</a>
-					<div class="shop_expand">
-						<div class="goods clearfix">
-							<table class="goods_table">
-								<tr class="goods_row">
-									<td></td>
-									<td><img src="img/icecream_item_1.png" alt="" width="33" height="33" class="incart"></td>
-									<td class="goods_name">Пломбир с апельсиновым джемом</td><td class="goods_weight">1,5 кг х<span> 200 руб.</span></td><td class="goods_summary">300 руб.</td>
-								</tr>
-								<tr class="goods_row custom_row">
-									<td class="custom_close"></td>
-									<td><img src="img/icecream_item_3.png" alt="" width="33" height="33" class="incart"></td>
-									<td class="goods_name">Клубничный пломбир с присыпкой из белого шоколада</td><td class="goods_weight">1,5 кг х<span> 300 руб.</span></td><td class="goods_summary">450 руб.</td>
-								</tr>
-							</table>
-							<span class="total_summary">Итого: 750 руб.</span>
-							<a href="#" class="button">Оформить заказ</a>
-						</div>
-					</div>
-				</li>
-			</ul>
-			</div>
-		</header>
+						</li>
+						<li class="join_hover interaction_item"><a href="#">Вход</a>
+							<div class="join_hover_form">
+								<form action="#" method="post" class="join_expand">
+									<input type="email" name="email_accept" class="email_area" placeholder="Электронная почта">
+									<input type="password" name="password_accept" class="password_area" placeholder="Пароль">
+									<button class="button" type="submit">Войти</button>
+									<div class="join_help clearfix">
+										<a href="#" class="hov_act">Забыли пароль?</a><br>
+										<a href="#" class="hov_act">Новая регистрация</a>
+									</div>
+								</form>
+							</div>
+						</li>
+						<li class="shop_hover interaction_item"><a href="#">Пусто</a>
+							<div class="shop_expand">
+								<div class="goods clearfix">
+									<table class="goods_table">
+										<tr class="goods_row">
+											<td></td>
+											<td><img src="img/icecream_item_1.png" alt="" width="33" height="33" class="incart"></td>
+											<td class="goods_name">Пломбир с апельсиновым джемом</td><td class="goods_weight">1,5 кг х<span> 200 руб.</span></td><td class="goods_summary">300 руб.</td>
+										</tr>
+										<tr class="goods_row custom_row">
+											<td class="custom_close"></td>
+											<td><img src="img/icecream_item_3.png" alt="" width="33" height="33" class="incart"></td>
+											<td class="goods_name">Клубничный пломбир с присыпкой из белого шоколада</td><td class="goods_weight">1,5 кг х<span> 300 руб.</span></td><td class="goods_summary">450 руб.</td>
+										</tr>
+									</table>
+									<span class="total_summary">Итого: 750 руб.</span>
+									<a href="#" class="button">Оформить заказ</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</header>
+		</div>
 <!-- MAIN -->
-		<main>
+		<main class="big_container">
 			<div class="welcom container">
 				<div class="lie_slider">
 					<label for="input_1" class="lie_input_1"></label>
@@ -112,22 +112,22 @@
 			<div class="best_icecream container clearfix">
 				<div class="best_item">
 					<img src="img/icecream_item_1.png" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой" width="267" height="267">
-					<a href="#" class="inline_link hov_act">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+					<a href="#" class="hov_act">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
 					<span class="hit_value">310<span>/кг</span></span>
 				</div>
 				<div class="best_item">
 					<img src="img/icecream_item_2.png" alt="Сливочно-кофейное с кусочками шоколада" width="267" height="267">
-					<a href="#" class="inline_link hov_act">Сливочно-кофейное с кусочками шоколада</a>
+					<a href="#" class="hov_act">Сливочно-кофейное с кусочками шоколада</a>
 					<span class="hit_value">380<span>/кг</span></span>
 				</div>
 				<div class="best_item">
 					<img src="img/icecream_item_3.png" alt="Сливочно-клубничное с присыпкой из белого шоколада" width="267" height="267">
-					<a href="#" class="inline_link hov_act">Сливочно-клубничное с присыпкой из белого шоколада</a>
+					<a href="#" class="hov_act">Сливочно-клубничное с присыпкой из белого шоколада</a>
 					<span class="hit_value">355<span>/кг</span></span>
 				</div>
 				<div class="best_item">
 					<img src="img/icecream_item_4.png" alt="Сливочное крем-брюле с карамельной подливкой" width="267" height="267">
-					<a href="#" class="inline_link hov_act">Сливочное крем-брюле с карамельной подливкой</a>
+					<a href="#" class="hov_act">Сливочное крем-брюле с карамельной подливкой</a>
 					<span class="hit_value">415<span>/кг</span></span>
 				</div>
 			</div>
@@ -146,8 +146,8 @@
 				<section class="news small_block">
 					<h3>Новое в нашем блоге</h3>
 					<a href="#" class="news_link hov_act">10 способов сервировки <br>
-					фруктовых щербетов к <br>
-					столу</a>
+						фруктовых щербетов к <br>
+						столу</a>
 				</section>
 				<section class="subscription small_block">
 					<form action="#" method="post" class="subscription_form  clearfix">
@@ -182,11 +182,11 @@
 			</div>
 			<div class="developers">
 				<img src="img/htmlacademy_logo.png" alt="Сделано в HTML Academy © 2017" class="htmlacademy_logo" width="108" height="38">
-				<div class="made_in">Сделано в <a href="#" class="hov_act">HTML Academy</a> © 2017</div>
+				<div class="made_in">Сделано в <a href="#" class="hov_act academy">HTML Academy</a> © 2017</div>
 			</div>
 		</footer>
 <!-- POPUP -->
-		<div class="popup">
+		<!-- <div class="popup">
 			<b>Мы обязательно вам ответим!</b><span class="close_popup"></span>
 			<form action="#" name="feedback" class="feedback_form">
 				<input type="text" placeholder="Как вас зовут?" class="how_name"><span>Как вас зовут?</span>
@@ -195,7 +195,7 @@
 				<button class="button" type="submit">Отправить</button>
 			</form>
 		</div>
-		<div class="modal_overlay"></div>
+		<div class="modal_overlay"></div> -->
 	</div>
 </body>
 </html>
