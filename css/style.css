@@ -1050,15 +1050,27 @@ main .welcom {
 	background: linear-gradient(to bottom, #f26843, #e74a35);
 }
 
-main .map {
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- MAP*/
+
+.map {
 	position: relative;
-
 	height: 430px;
-
-	background: url("../img/map.jpg") no-repeat;
 }
 
-main .map::before {
+.map iframe {
+	position: absolute;
+	z-index: 20;
+}
+
+.map_container {
+	position: relative;
+	width: 1200px;
+	height: 430px;
+	margin: 0 auto;
+	background: url("../img/map.jpg") no-repeat 50%;
+}
+
+.map_container::before {
 	content: "";
 	position: absolute;
 	top: 138px;
@@ -1068,11 +1080,11 @@ main .map::before {
 	background: url("../img/icon_sprite.png") -1272px -50px;
 }
 
-.map .contacts_full {
+.map_container .contacts_full {
 	position: absolute;
 	right: 27px;
 	top: 62px;
-
+	z-index: 30;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 27px 25px 27px 28px;
@@ -1741,7 +1753,7 @@ main .great_ice_catalog {
 	display: inline-block;
 	vertical-align: top;
 	box-sizing: border-box;
-	border: 3px solid #c2cec7;
+	border: 3px solid rgba(255, 255, 255, 0.5);
 	border-radius: 50%;
 	margin-top: 15px;
 	margin-right: 11px;
@@ -1842,6 +1854,22 @@ main .great_ice_catalog {
 }
 
 /* --------------------------------- POPUP STYLE */
+.popup_wrapper {
+	display: none;
+}
+
+@keyframes anim {
+	0% { 		transform: translateX(-2000px); }
+	70% { 		transform: translateX(30px); }
+	90% { 		transform: translateX(-10px); }
+	100% { 		transform: translateX(0); }
+}
+
+@keyframes error {
+	0%, 100% { 					transform: translateX(0); }
+	10%, 30%, 50%, 70%, 90% { 	transform: translateX(-10px); }
+	20%, 40%, 60%, 80% { 		transform: translateX(10px); }
+}
 
 .popup {
 	position: fixed;
@@ -1864,6 +1892,16 @@ main .great_ice_catalog {
 	background: #f8f7f4;
 
 	color: #323232;
+
+	animation: anim 0.6s;
+}
+
+.popup_error {
+	animation: error 0.6s;
+}
+
+.show_popup {
+	display: block;
 }
 
 .popup .close_popup {
