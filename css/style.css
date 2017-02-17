@@ -1620,19 +1620,19 @@ main .index_catalog {
 }
 
 .footer_icons .icon_twit {
-	background-position: -104px -242px;
+	background-position: -104.7px -242px;
 }
 
 .footer_icons .icon_ins {
-	background-position: -52px -242px;
+	background-position: -52.7px -242px;
 }
 
 .footer_icons .icon_fb {
-	background-position: 0 -242px;
+	background-position: -0.7px -242px;
 }
 
 .footer_icons .icon_vk {
-	background-position: -156px -242px;
+	background-position: -156.6px -242px;
 }
 
 .footer_icons .small_icons:active {
@@ -1988,19 +1988,19 @@ label .search_area:focus {
 }
 
 .footer_icons .icon_twit:hover {
-	background-position: -104px -306px;
+	background-position: -104.7px -306px;
 }
 
 .footer_icons .icon_ins:hover {
-	background-position: -52px -306px;
+	background-position: -52.7px -306px;
 }
 
 .footer_icons .icon_fb:hover {
-	background-position: 0 -306px;
+	background-position: -0.7px -306px;
 }
 
 .footer_icons .icon_vk:hover {
-	background-position: -156px -306px;
+	background-position: -156.6px -306px;
 }
 
 .hov_act:hover,
