@@ -8,13 +8,36 @@ body {
 	line-height: normal;
 }
 
+main {
+	position: relative;
+	z-index: 20;
+}
+
 .big_container {
 	margin: 0 auto;
 	width: 1200px;
+	position: relative;
+	z-index: 30;
+}
+
+main.big_container {
+	position: relative;
+	z-index: 25;
 }
 
 .wrapper_2 {
 	background-color: #849d8f;
+}
+
+.wrapper_2::before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 500px;
+	z-index: 1;
+	background-image: -webkit-linear-gradient(top,#9cb0a5 ,#849d8f );
+	background-image: linear-gradient(to bottom,#9cb0a5 ,#849d8f );
 }
 
 .container {
@@ -624,6 +647,7 @@ main .welcom {
 	top: 0;
 	right: -2px;
 	width: 250px;
+	z-index: 0;
 }
 
 .contacts_short span {
@@ -978,8 +1002,8 @@ main .index_catalog {
 /* ------ crumbs */
 .ice_sort .crumbs {
 	width: 500px;
-	padding-top: 26px;
-	margin-bottom: 4px;
+	padding-top: 24px;
+	margin: 0 0 4px 2px;
 	font-size: 0;
 }
 
@@ -987,7 +1011,7 @@ main .index_catalog {
 	position: relative;
 	display: inline-block;
 	vertical-align: baseline;
-	margin-right: 23px;
+	margin-right: 21px;
 	line-height: 16px;
 	font-size: 14px;
 }
@@ -995,7 +1019,7 @@ main .index_catalog {
 .crumbs div::after {
 	position: absolute;
 	content: "»";
-	right: -15px;
+	right: -13px;
 }
 
 .crumbs div:last-child::after {
@@ -1014,7 +1038,7 @@ main .index_catalog {
 }
 
 .ice_sort .catalog_main_h {
-	margin: 0 0 25px 0;
+	margin: 0 0 27px 0;
 	line-height: 41px;
 	font-size: 35px;
 	font-weight: bold;
@@ -1037,7 +1061,7 @@ main .index_catalog {
 .ice_form_block .mini_title {
 	display: inline-block;
 	vertical-align: top;
-	margin: 0 0 7px 17px;
+	margin: 0 0 6px 17px;
 	line-height: 16px;
 	font-size: 14px;
 }
@@ -1045,7 +1069,7 @@ main .index_catalog {
 /* ------ ice_form_wrapper select */
 .ice_form_sort select {
 	position: relative;
-	padding: 0 50px 0 16px;
+	padding: 0 50px 3px 16px;
 	height: 36px;
 	border: none;
 	color: #ffffff;
@@ -1174,7 +1198,7 @@ main .index_catalog {
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 20px;
+	margin: 0 0 0 20px;
 	padding-left: 30px;
 	line-height: 18px;
 	font-size: 16px;
@@ -1182,7 +1206,7 @@ main .index_catalog {
 }
 
 .fat_type label:first-of-type {
-	margin: 0;
+	margin-left: 0;
 }
 
 .fat_type input {
@@ -1449,7 +1473,7 @@ main .index_catalog {
 /* ------ paginator */
 .paginator {
 	position: relative;
-	margin: 44px auto 50px auto;
+	margin: 46px auto 50px auto;
 	width: 1146px;
 	text-align: right;
 	font-size: 0;
